@@ -7,7 +7,7 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-import com.fahrul.movieujian.model.MovieDao;
+import com.fahrul.movieujian.model.MovieDAO;
 import com.fahrul.movieujian.model.TitleMovie;
 
 
@@ -31,5 +31,5 @@ public abstract class AppDatabase extends RoomDatabase {
         return sInstance;
     }
 
-    public abstract MovieDao MovieDao();
+    public abstract MovieDAO movieDAO();
 }

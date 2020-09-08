@@ -1,17 +1,14 @@
 package com.fahrul.movieujian.model;
 
-
-
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
+
 import java.util.List;
-
 @Dao
-public interface MovieDao {
-
+public interface MovieDAO {
     @Query("SELECT * FROM titelMovie ")
     List<TitleMovie> getAll();
 
@@ -26,6 +23,5 @@ public interface MovieDao {
 
     @Update
     int updateTitleMovie(TitleMovie titleMovie);
-
-
+    
 }

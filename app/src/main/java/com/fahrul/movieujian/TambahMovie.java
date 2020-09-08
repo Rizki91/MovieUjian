@@ -154,7 +154,7 @@ public class TambahMovie extends AppCompatActivity {
                                     }
                                 });
                             } else {
-                                mDb.MovieDao().insertAll(generateObjectData());
+                                mDb.movieDAO().insertAll(generateObjectData());
                                 mDatabase.child("Movie").child("Data").child(generateObjectData().getTitle()).setValue(generateObjectData());
 
                                 runOnUiThread(new Runnable() {
