@@ -19,10 +19,8 @@ public class TitleMovie
 {
 
 
-    @ColumnInfo(name = "id")
     @PrimaryKey
     @NonNull
-    private int id;
     @ColumnInfo(name = "title")
     private String title;
     @ColumnInfo(name = "rating")
@@ -40,13 +38,7 @@ public class TitleMovie
     @ColumnInfo (name = "imgPoster")
     private String imgPoster;
 
-    public int getId() {
-        return id;
-    }
 
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getTitle() {
         return title;

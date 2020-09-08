@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity implements AdapterListMovie.
 
     public void loadDatabase(){
         List<TitleMovie> movieList = null;
-        movieList = mDb.movieDAO().getAll();
+        movieList = mDb.MovieDao().getAll();
         adapter = new AdapterListMovie(MainActivity.this, movieList);
         adapter.setOnItemClickListener(MainActivity.this);
         runOnUiThread(new Runnable() {
