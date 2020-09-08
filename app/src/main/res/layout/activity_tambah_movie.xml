@@ -7,6 +7,15 @@
     android:orientation="vertical"
     tools:context=".TambahMovie">
 
+    <ProgressBar
+        android:id="@+id/progressBarTambahData"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -137,37 +146,36 @@
 
                 <ImageButton
                     android:id="@+id/img_btn1"
-                    android:layout_width="50dp"
+                    android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="2dp"
-                    android:layout_weight="1"
                     android:background="@drawable/bg_shape"
                     android:scaleType="fitCenter"
                     app:srcCompat="@drawable/ic_photoadd" />
 
-                <ImageButton
-                    android:id="@+id/img_btn2"
-                    android:layout_width="50dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="2dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/bg_shape"
-                    android:scaleType="fitCenter"
-                    app:srcCompat="@drawable/ic_photoadd" />
+<!--                <ImageButton-->
+<!--                    android:id="@+id/img_btn2"-->
+<!--                    android:layout_width="50dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_margin="2dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="@drawable/bg_shape"-->
+<!--                    android:scaleType="fitCenter"-->
+<!--                    app:srcCompat="@drawable/ic_photoadd" />-->
 
-                <ImageButton
-                    android:id="@+id/img_btn3"
-                    android:layout_width="50dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:scaleType="fitCenter"
-                    android:background="@drawable/bg_shape"
-                    app:srcCompat="@drawable/ic_photoadd" />
+<!--                <ImageButton-->
+<!--                    android:id="@+id/img_btn3"-->
+<!--                    android:layout_width="50dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="@drawable/bg_shape"-->
+<!--                    android:scaleType="fitCenter"-->
+<!--                    app:srcCompat="@drawable/ic_photoadd" />-->
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:orientation="vertical">
 
                 <TextView
@@ -179,10 +187,14 @@
                     android:id="@+id/buttonSend"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="300dp"
+                    android:layout_marginLeft="270dp"
                     android:background="@drawable/btn_simpan"
                     android:text="Send"
                     android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1064750108271",
+    "firebase_url": "https://movieujian.firebaseio.com",
+    "project_id": "movieujian",
+    "storage_bucket": "movieujian.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064750108271:android:8066d4e762a747ad19079a",
+        "android_client_info": {
+          "package_name": "com.fahrul.movieujian"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064750108271-nqre13es0u701gkrd8llt2ut0ngo4men.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fahrul.movieujian",
+            "certificate_hash": "c17b04ebce3dec0bbba21899e6f933d6d563d968"
+          }
+        },
+        {
+          "client_id": "1064750108271-4vvcettje1k81okc1hp3u8ejdq3vmr27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzCQxL3qdoNzBLRQm_wlB3ALnXwrmBOfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064750108271-4vvcettje1k81okc1hp3u8ejdq3vmr27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
